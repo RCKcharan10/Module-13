@@ -1,31 +1,48 @@
-# Exp.No:31  
-## IMPLEMENTATION OF STACK
+# Experiment No: 31 – Stack Implementation using List
+
+## AIM:
+To write a Python program to implement a stack using list and its built-in methods `append()` and `pop()`.
 
 ---
 
-### AIM  
-To write a Python program to implement a stack using a list and its built-in methods (`append()`, `pop()`).
+## ALGORITHM:
+1. Define a class named `st` to represent the stack.
+2. Inside the class:
+   - Define the method `push(L)` to append even numbers from 1 to L into the stack.
+   - Define the method `pop()` to remove the top element from the stack and display it.
+   - Define the method `peek()` to display current elements of the stack.
+3. Create an instance of the class.
+4. Get input value `L` from the user.
+5. Call `push(L)` to populate the stack with even numbers up to `L`.
+6. Call `peek()` to show the stack elements.
+7. Call `pop()` to remove the top element.
+8. Call `peek()` again to display updated stack.
 
 ---
 
-### ALGORITHM
+## PROGRAM:
+```python
+stack = []
+class st:
+    def push(self, L):
+        for i in range(1, L):
+            if i % 2 == 0:
+                stack.append(i)
+    def pop(self):
+        print(f"Element popped :  {stack.pop()}")
+    def peek(self):
+        print(f"Elements in the stack \n {stack}")
 
-1. **Start the program.**
-2. **Define a class `st`** with the following methods:
-   - `push(self, num)`: Adds the number `num` to the stack.
-   - `pop(self)`: Removes and returns the top element from the stack.
-3. **Create a stack object `s`** using the class `st`.
-4. **Input the stack size**: Take an integer input `size` to define the size of the stack.
-5. **Loop through numbers from 1 to size**: Add only the odd numbers to the stack using the `push()` method.
-6. **Display the elements** in the stack after the loop completes.
-7. **Call `pop()`** to remove the top element from the stack and display the popped element.
-8. **Display the stack again** to show the remaining elements.
-9. **End the program.**
-
----
-
-### PROGRAM
-
+L = int(input())
+no = st()
+no.push(L)
+no.peek()
+no.pop()
+no.peek()
 ```
 
-```
+## OUTPUT
+![image](https://github.com/user-attachments/assets/058cc6dd-919e-4964-ba40-185dc8c9aa61)
+
+RESULT:
+Thus, the Python program to implement a stack using a list and built-in methods was successfully executed.

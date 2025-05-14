@@ -49,7 +49,8 @@ print(f"postfix notation:  {in_to_post(exp)}")
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/989ee50f-4280-41d6-a624-a1300353bac2)
 
 
 ### RESULT
-
+Thus, the Python program to convert infix expression to postfix expression was successfully executed following precedence and associativity rules.

@@ -1,4 +1,4 @@
-# Experiment No: 7A – Stack Implementation using List
+# Experiment No: 13A – Stack Implementation using List
 
 ## AIM:
 To write a Python program to implement a stack using list and its built-in methods `append()` and `pop()`.

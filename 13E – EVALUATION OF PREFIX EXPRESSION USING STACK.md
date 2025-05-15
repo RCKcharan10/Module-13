@@ -1,4 +1,4 @@
-# Experiment No: 7e – Evaluation of Prefix Expression using Stack
+# Experiment No: 13e – Evaluation of Prefix Expression using Stack
 
 ## AIM:
 To write a Python program to evaluate a user-given prefix expression using stack.

@@ -1,4 +1,4 @@
-# Experiment No: 7b – Infix to Postfix Conversion
+# Experiment No: 13b – Infix to Postfix Conversion
 
 ## AIM:
 To write a Python program to convert a given infix expression to postfix expression using dictionary for precedence and set for operators.

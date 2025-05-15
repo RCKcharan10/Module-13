@@ -1,4 +1,4 @@
-# Experiment No: 7c – Tower of Hanoi using Recursion
+# Experiment No: 13c – Tower of Hanoi using Recursion
 
 ## AIM:
 To write a Python program to solve the Tower of Hanoi problem and display all moves using recursive function.

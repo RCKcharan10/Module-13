@@ -1,4 +1,4 @@
-# Experiment No: 7d – Evaluation of Postfix Expression using Stack
+# Experiment No: 13d – Evaluation of Postfix Expression using Stack
 
 ## AIM:
 To write a Python program to evaluate a given postfix expression that contains Multiplication and Addition operators using stack.
